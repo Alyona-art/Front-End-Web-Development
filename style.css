@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Roboto+Mono:wght@700&display=swap');
 
+.main {
+  grid-area: main;
+}
+
+.aside-1 {
+  grid-area: aside-1;
+}
+
+.aside-2 {
+  grid-area: aside-2;
+}
+
+.footer {
+  grid-area: footer;
+  align-self: center;
+  background-color: #edeff5;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "aside-1 main aside-2"
+    "footer footer footer";
+
+}
+
 
 h1 {
     font-family: 'Roboto Mono', monospace;
@@ -16,6 +44,7 @@ h2 {
     font-size: 40px;
     color: rgb(207, 131, 252);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: 0;
 }
 
 h3 {
@@ -25,6 +54,10 @@ h3 {
 
 nav {
     margin-top: 50px;
+}
+
+ul {
+  margin-top: 0;
 }
 
 li {
@@ -52,7 +85,7 @@ p {
 }
 
 section {
-    padding-top: 10px;
+    margin-top: 30px;
 }
 
 hr {
@@ -77,26 +110,4 @@ hr {
     margin: 0;
   }
 
-
-  .wrapper {
-    display: flex;  
-    flex-flow: row wrap;
-  }
-  .wrapper > * {
-    padding: 10px;
-    flex: 1 100%;
-  }
-  
-
-  @media all and (min-width: 800px) {
-    .aside { flex: 1 0 0; }
-  }
-  
-  @media all and (min-width: 600px) {
-    .main    { flex: 3 0px; }
-    .aside-1 { order: 1; } 
-    .main    { order: 2; }
-    .aside-2 { order: 3; }
-    .footer  { order: 4; }
-  }
   
