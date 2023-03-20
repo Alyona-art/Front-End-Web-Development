@@ -8,13 +8,13 @@
 
 	<nav>
 		<ul>
-			<li aria-current={$page.url.pathname === '{base}/' ? 'page' : undefined}>
+			<li>
 				<a href="{base}/">Home</a>
 			</li>
-			<li aria-current={$page.url.pathname === '{base}/about' ? 'page' : undefined}>
+			<li>
 				<a href="{base}/about">About</a>
 			</li>
-			<li aria-current={$page.url.pathname === '{base}/portfolio' ? 'page' : undefined}>
+			<li>
 				<a href="{base}/portfolio">Portfolio</a>
 			</li>
 		</ul>
