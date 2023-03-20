@@ -17,6 +17,7 @@
         border-radius: 50%;
         margin: 5px;
         border: 1px solid;
+        border-color: black;
     }
     .icon:hover {
         opacity: 0.7;
