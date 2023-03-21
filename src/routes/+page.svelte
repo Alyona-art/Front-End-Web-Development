@@ -19,6 +19,17 @@
 </section>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Roboto+Mono:wght@700&display=swap');
+	
+	h1 {
+		font-family: 'Roboto Mono', monospace;
+		font-weight: 700;
+		font-size: 54px;
+		color: rgb(207, 131, 252);
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		margin-bottom: 0px;
+	}
+
 	section {
 		display: flex;
 		flex-direction: column;
