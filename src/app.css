@@ -72,13 +72,6 @@ li {
   background-color: #edeff5;
 }
 
-a {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 20px;
-    
-}
-
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -92,6 +85,43 @@ hr {
     border-width:0;
     background-color: black;
     height: 1px;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+a {
+	text-decoration: none;
+	margin: 20px;
+	color: rgb(207, 131, 252);
+}
+
+a:hover {
+	color: rgb(162, 92, 185);
+}
+
+.text-column {
+	display: flex;
+	max-width: 48rem;
+	flex: 0.6;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
 }
 
   

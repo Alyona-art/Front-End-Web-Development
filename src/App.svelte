@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from '$app/paths';
   import Header from "./lib/Header.svelte";
   import ComicData from "./lib/Comic.svelte";
   import AboutMe from "./lib/AboutMe.svelte";
@@ -19,7 +20,7 @@
 
 <head>
   <title>Homework 4</title>
-  <link rel="stylesheet" href="app.css" />
+  <link rel="stylesheet" href="{base}/app.css" />
 </head>
 
 <body>
