@@ -1,1 +1,0 @@
-var s;const t=((s=globalThis.__sveltekit_1w6mv1w)==null?void 0:s.base)??"/Front-End-Web-Development/src/routes";var e;const a=((e=globalThis.__sveltekit_1w6mv1w)==null?void 0:e.assets)??t;export{a,t as b};
