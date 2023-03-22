@@ -20,7 +20,7 @@
 
 <head>
   <title>Homework 4</title>
-  <link rel="stylesheet" href="{base}/app.css" />
+  <link rel="stylesheet" href="{base}/src/app.css" />
 </head>
 
 <body>
