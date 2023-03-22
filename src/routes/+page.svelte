@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Comic from './Comic.svelte';
 </script>
 
@@ -36,5 +36,10 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
+	}
+
+	p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 	}
 </style>
