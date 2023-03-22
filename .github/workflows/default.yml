@@ -24,6 +24,6 @@ jobs:
       - name: Build website
         run: npm run build
       - name: Deploy to GitHub Page
-        uses: Alyona-art/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
